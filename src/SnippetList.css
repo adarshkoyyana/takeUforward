@@ -1,0 +1,39 @@
+/* SnippetList.css */
+
+.snippet-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .snippet-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .table-container {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tbody tr:hover {
+    background-color: #ddd;
+  }
+  
